@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="Dark_Radish.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0" Language="en-US" Publisher="KyleFiegener" />
-        <DisplayName>Dark_Radish</DisplayName>
+        <DisplayName>Dark_Radish_2022</DisplayName>
         <Description xml:space="preserve">Radish's colors are best colors.</Description>
     </Metadata>
     <Installation>
