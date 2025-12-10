@@ -3,7 +3,7 @@
     <Theme Name="Dark Radish 2026" GUID="{5816d336-5a2e-4d7b-92df-9a2a2e3e9520}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}" FallbackId="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
         <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
             <Color Name="AccentFillDefault">
-                <Background Type="CT_RAW" Source="FF9184EE" />
+                <Background Type="CT_RAW" Source="FF007ACC" />
             </Color>
             <Color Name="AccentFillSecondary">
                 <Background Type="CT_RAW" Source="80000000" />
@@ -12,7 +12,7 @@
                 <Background Type="CT_RAW" Source="CC9184EE" />
             </Color>
             <Color Name="SolidBackgroundFillTertiary">
-                <Background Type="CT_RAW" Source="FF282828" />
+                <Background Type="CT_RAW" Source="FF303033" />
             </Color>
             <Color Name="SolidBackgroundFillQuaternary">
                 <Background Type="CT_RAW" Source="FF2C2C2C" />
@@ -20,13 +20,28 @@
             <Color Name="SurfaceBackgroundFillDefault">
                 <Background Type="CT_RAW" Source="FF2C2C2C" />
             </Color>
+            <Color Name="TextFillPrimary">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
             <Color Name="TextFillSecondary">
-                <Background Type="CT_RAW" Source="C8FFFFFF" />
+                <Background Type="CT_RAW" Source="D6FCFCFF" />
+            </Color>
+			<Color Name="ControlFillDefault">
+				<Background Type="CT_RAW" Source="FF0C0C0F" />
+			</Color>
+            <Color Name="ControlFillSecondary">
+                <Background Type="CT_RAW" Source="FF1C1C25" />
+            </Color>
+            <Color Name="ControlFillActiveInput">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+            <Color Name="ControlFillDisabled">
+                <Background Type="CT_RAW" Source="FF656565" />
             </Color>
         </Category>
         <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
             <Color Name="EnvironmentBackground">
-                <Background Type="CT_RAW" Source="FF1C1C1C" />
+                <Background Type="CT_RAW" Source="FF1C191C" />
             </Color>
             <Color Name="EnvironmentBorder">
                 <Background Type="CT_RAW" Source="FF9184EE" />
@@ -39,6 +54,324 @@
             </Color>
             <Color Name="EnvironmentLayeredBackground">
                 <Background Type="CT_RAW" Source="4D3A3A3A" />
+            </Color>
+        </Category>
+        <Category Name="CommonControls" GUID="{c01072a1-a915-4abf-89b7-e2f9e8ec4c7f}">
+            <Color Name="ComboBoxBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="ComboBoxBackgroundDisabled">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+            </Color>
+            <Color Name="ComboBoxBackgroundFocused">
+                <Background Type="CT_RAW" Source="FF000003" />
+            </Color>
+            <Color Name="ComboBoxBackgroundHover">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxBackgroundPressed">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+            <Color Name="ComboBoxText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="ComboBoxTextDisabled">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="ComboBoxTextFocused">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxTextHover">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxTextPressed">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="TextBoxBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="TextBoxBackgroundDisabled">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+            </Color>
+            <Color Name="TextBoxBackgroundFocused">
+                <Background Type="CT_RAW" Source="FF000003" />
+            </Color>
+            <Color Name="TextBoxText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="TextBoxTextDisabled">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="TextBoxTextFocused">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+        </Category>
+        <Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
+            <Color Name="ComboBoxBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="ComboBoxDisabledBackground">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+            </Color>
+            <Color Name="ComboBoxDisabledText">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="ComboBoxFocusedBackground">
+                <Background Type="CT_RAW" Source="FF000003" />
+            </Color>
+            <Color Name="ComboBoxFocusedText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxItemMouseOverText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxItemText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="ComboBoxItemTextInactive">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="ComboBoxMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+            <Color Name="ComboBoxMouseDownText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundMiddle1">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundMiddle2">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxPopupBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="ComboBoxPopupBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="ComboBoxText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="DropDownBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="DropDownDisabledBackground">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+            </Color>
+            <Color Name="DropDownDisabledText">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="DropDownMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+            <Color Name="DropDownMouseDownText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundMiddle1">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundMiddle2">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="DropDownPopupBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="DropDownPopupBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="DropDownText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="SearchBoxBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="SearchBoxMouseOverBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="SearchBoxMouseOverBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="SearchBoxMouseOverBackgroundMiddle1">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="SearchBoxMouseOverBackgroundMiddle2">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="SearchBoxPressedBackground">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+        </Category>
+        <Category Name="TeamExplorer" GUID="{4aff231b-f28a-44f0-a66b-1beeb17cb920}">
+            <Color Name="TextBox">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+                <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+        </Category>
+        <Category Name="TabbedDesigner" GUID="{35e33be4-027b-40b5-83a3-c10540994010}">
+            <Color Name="ComboBoxBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="ComboBoxDisabledBackground">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+            </Color>
+            <Color Name="ComboBoxDisabledText">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="ComboBoxFocusedBackground">
+                <Background Type="CT_RAW" Source="FF000003" />
+            </Color>
+            <Color Name="ComboBoxFocusedText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxItemMouseOverText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxItemText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="ComboBoxItemTextInactive">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="ComboBoxMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+            <Color Name="ComboBoxMouseDownText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundMiddle1">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverBackgroundMiddle2">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="ComboBoxMouseOverText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="ComboBoxPopupBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="ComboBoxPopupBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="ComboBoxText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="DropDownBackground">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+            </Color>
+            <Color Name="DropDownDisabledBackground">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+            </Color>
+            <Color Name="DropDownDisabledText">
+                <Background Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="DropDownMouseDownBackground">
+                <Background Type="CT_RAW" Source="FF000006" />
+            </Color>
+            <Color Name="DropDownMouseDownText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundMiddle1">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverBackgroundMiddle2">
+                <Background Type="CT_RAW" Source="FF06060F" />
+            </Color>
+            <Color Name="DropDownMouseOverText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="DropDownPopupBackgroundBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="DropDownPopupBackgroundEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="DropDownText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="TextBox">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+                <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+        </Category>
+        <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">
+            <Color Name="Disabled">
+                <Background Type="CT_RAW" Source="FF2D2D30" />
+                <Foreground Type="CT_RAW" Source="FF656565" />
+            </Color>
+            <Color Name="FocusedBackground">
+                <Background Type="CT_RAW" Source="FF000003" />
+                <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="MouseOverBackground">
+                <Background Type="CT_RAW" Source="FF06060F" />
+                <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="PopupItemsListBackgroundGradientBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="PopupItemsListBackgroundGradientEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="PopupItemText">
+                <Background Type="CT_RAW" Source="FFF1F1F1" />
+            </Color>
+            <Color Name="PopupMouseOverItemText">
+                <Background Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="PopupSectionBackgroundGradientBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="PopupSectionBackgroundGradientEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="PopupSectionHeaderGradientBegin">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="PopupSectionHeaderGradientEnd">
+                <Background Type="CT_RAW" Source="FF1B1B1C" />
+            </Color>
+            <Color Name="SearchActiveBackground">
+                <Background Type="CT_RAW" Source="FF000003" />
+                <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="Selection">
+                <Background Type="CT_RAW" Source="FF3399FF" />
+                <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+            </Color>
+            <Color Name="Unfocused">
+                <Background Type="CT_RAW" Source="FF0C0C0F" />
+                <Foreground Type="CT_RAW" Source="FFF1F1F1" />
             </Color>
         </Category>
     </Theme>
